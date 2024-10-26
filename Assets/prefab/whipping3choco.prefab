@@ -154,4 +154,4 @@ MonoBehaviour:
   colliderDisableTime: 0.2
   lifeTime: 5
   stageCenter: {x: 0, y: 0, z: 0}
-  stageRadius: 50
+  stageRadius: 115

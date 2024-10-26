@@ -17,7 +17,7 @@ public class ScoreUI : MonoBehaviour
         // scoreManagerとscoreTextがnullでない場合のみスコアを更新
         if (scoreManager != null && scoreText != null)
         {
-            scoreText.text = "スコア：" + scoreManager.GetScore().ToString();
+            scoreText.text = "score : " + scoreManager.GetScore().ToString();
         }
     }
 }
