@@ -138,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemySpeed: 5
-  enemyLifeTime: 60
+  enemyLifeTime: 10
   player: {fileID: 0}
   stopDistance: 10
   fleeDistance: 5
@@ -149,3 +149,5 @@ MonoBehaviour:
   isFrozen: 0
   maxRange: 115
   minRange: 20
+  hitSE: {fileID: 0}
+  shootSE: {fileID: 0}

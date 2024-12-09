@@ -692,7 +692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefabs:
   - {fileID: 362777764882930601, guid: 15a97acdb75524748a90bd4327389677, type: 3}
-  makeTime: 2
+  makeTime: 3
   maxRadius: 115
   minRadius: 20
 --- !u!1 &590699200
@@ -1485,7 +1485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 7040015885832914683, guid: 1ea71cb270609694282f0a40c542bf09, type: 3}
-  spawnInterval: 1
+  spawnInterval: 3
   maxRadius: 115
   minRadius: 20
   sum: 1000
