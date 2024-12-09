@@ -11,7 +11,6 @@ public class Army : MonoBehaviour
     [SerializeField] private float approachDistance = 15f;  // プレイヤーに向かって進む距離
     [SerializeField] private GameObject enemyBulletPrefab; // 弾のPrefab
     [SerializeField] private float bulletSpeed = 10f;   // 弾の速度
-    [SerializeField] private float shootCooldown = 2f;   // 弾発射のクールダウン
     public bool isFrozen = false;  // 凍結状態
     private bool canShoot = true;  // 弾発射可能かどうか
     private Vector3 randomDestination;  // ランダムな目的地
@@ -167,7 +166,7 @@ public class Army : MonoBehaviour
         // 弾発射時の効果音を再生
         PlayShootSE();
 
-        yield return new WaitForSeconds(shootCooldown); // クールダウンを待つ
+        yield return new WaitForSeconds(10); // クールダウンを待つ
         canShoot = true; // 次の弾発射可能
     }
 
